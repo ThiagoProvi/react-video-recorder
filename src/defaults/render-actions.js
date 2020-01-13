@@ -60,7 +60,7 @@ const Actions = ({
     if (isReplayingVideo) {
       return (
         <Button onClick={onStopReplaying} data-qa='start-replaying'>
-          Use another video
+          Usar outro video
         </Button>
       )
     }
@@ -85,11 +85,11 @@ const Actions = ({
 
     return shouldUseVideoInput ? (
       <Button onClick={onOpenVideoInput} data-qa='open-input'>
-        Record a video
+        Gravar video
       </Button>
     ) : (
       <Button onClick={onTurnOnCamera} data-qa='turn-on-camera'>
-        Turn my camera ON
+        Ligar minha camera
       </Button>
     )
   }

@@ -52,9 +52,9 @@ Button.defaultProps = {
 export default props => (
   <RecWrapper>
     <Instructions>
-      <div>PRESS </div>
-      <InstuctionsHighlight> REC </InstuctionsHighlight>
-      WHEN READY
+      <div>Pressione </div>
+      <InstuctionsHighlight> Gravar </InstuctionsHighlight>
+      Quando estiver pronto
     </Instructions>
 
     <ButtonBorder>
